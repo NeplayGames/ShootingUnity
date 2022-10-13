@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour
     private void Start()
     {
         InstantiateEnemy();
-      InvokeRepeating(nameof(InstantiateEnemy),40f,1);
+      InvokeRepeating(nameof(InstantiateEnemy),10f,1);
     }
 
     private void InstantiateEnemy()
